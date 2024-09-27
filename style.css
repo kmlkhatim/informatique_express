@@ -1,0 +1,104 @@
+/* GENERAL */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+h1
+{
+    font-family: 'crete Round', serif;
+    font-size: 45px;
+    color: #444;
+}
+h2
+{
+    color: #ffffff;
+    font-size: 55px;
+}
+lu
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+.wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.orange
+{
+    color: #f60;
+}
+
+/* HEADER */
+
+header
+{
+    height: 120px;
+}
+header h1
+{
+    margin-top: 32px;
+    float: left;
+}
+header nav
+{
+    float: right;
+    margin-top: 50px;
+}
+header nav ul li
+{
+    float: left;
+    display: inline-block;
+}
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* MAIN IMAGE */
+
+#main-image
+{
+    height: 480px;
+    background: url('images/ConvertureInformatique.jpeg') center;
+}
+#main-image h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+}
+.button-1
+{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #f60;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+.button-1:hover
+{
+    background: #0101ef;
+}
