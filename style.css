@@ -21,6 +21,16 @@ h2
     color: #ffffff;
     font-size: 55px;
 }
+h4
+{
+    color: #444;
+    font-size: 24px;
+}
+p
+{
+    line-height: 20px;
+    color: #777;
+}
 lu
 {
     list-style: none;
@@ -50,6 +60,7 @@ header
 header h1
 {
     margin-top: 32px;
+    margin-left: 20px;
     float: left;
 }
 header nav
@@ -74,7 +85,7 @@ header nav ul li a
 #main-image
 {
     height: 480px;
-    background: url('images/main.jpg') center;
+    background: url('images/ezine_networking_06.jpg') center;
 }
 #main-image h2
 {
@@ -102,3 +113,42 @@ header nav ul li a
 {
     background: #0101ef;
 }
+
+/* STEPS */
+
+#article ul
+{
+    margin: 80px 0;
+    list-style-type: none;
+}
+#article ul li
+{
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+}
+#article h4{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+#article p
+{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+#art-1
+{
+    background: url('images/steps-icon-1.png') no-repeat top center;
+}
+#art-2
+{
+    background: url('images/steps-icon-2.png') no-repeat top center;
+}
+#art-3
+{
+    background: url('images/steps-icon-3.png') no-repeat top center;
+}
+
