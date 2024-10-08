@@ -279,3 +279,66 @@ input[type="text"]
     background-color: #444;
   
 }
+
+/* PROPOSE */
+#propos
+{
+    background-color: #F7DC6F;
+    padding: 60px 0;
+}
+ol
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ol li 
+{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+ol li:last-child
+{
+    border-bottom: none;
+}
+ol li span
+{
+    font-weight: bold;
+}
+ol li:hover
+{
+    background-color: #f0f0f0;
+}
+.listeOl 
+{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.listeOl:last-child 
+{
+    border-bottom: none;
+}
+.listeOl 
+{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+.listeOl span
+{
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+footer
+{
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p
+{
+    margin-bottom: 10px;
+}
